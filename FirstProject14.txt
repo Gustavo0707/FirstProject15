@@ -1,0 +1,12 @@
+Scanner scanner = new Scanner(System.in);
+	float excesso;
+	double multa = 4.0;
+
+
+        System.out.println("Informe quantos quilos acima de 50 de peixe foram pegos");
+        excesso = scanner.nextFloat();
+
+        if(excesso > 1){
+            multa = excesso * multa;
+            System.out.println("Joao pagará " + multa + " de multa");
+        }
